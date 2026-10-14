@@ -1,0 +1,10 @@
+a=4
+b=35
+
+def numerosrango(a,b,salto=4):
+    listanumeros=[]
+    for i in range(a,b+1,salto):
+        listanumeros.append(i)
+    return listanumeros
+
+print(numerosrango(a,b))

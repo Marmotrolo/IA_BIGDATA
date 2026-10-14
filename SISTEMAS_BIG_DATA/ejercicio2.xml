@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<peliculas>
+    <pelicula id="1">
+       <titulo> Octopussy </titulo>
+       <año>1983</año>
+    </pelicula>
+    <pelicula id="2">
+       <titulo> Hable con ella </titulo>
+       <año>2002</año>
+    </pelicula>
+    <pelicula id="3">
+       <titulo> Ocho apellidos vascos </titulo>
+       <año>2014</año>
+    </pelicula>
+</peliculas>
