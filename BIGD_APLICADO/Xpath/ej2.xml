@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes>
+ <estudiante>
+ <nombre>Juan García</nombre>
+ <notas>
+ <nota asignatura="Matemáticas">8</nota>
+ <nota asignatura="Ciencias">9</nota>
+ <nota asignatura="Historia">7</nota>
+ </notas>
+ </estudiante>
+ <estudiante>
+ <nombre>Laura Luna</nombre>
+ <notas>
+ <nota asignatura="Matemáticas">9</nota>
+ <nota asignatura="Ciencias">8</nota>
+ <nota asignatura="Historia">9</nota>
+ </notas>
+ </estudiante>
+ <estudiante>
+ <nombre>Emma Davis</nombre>
+ <notas>
+ <nota asignatura="Matemáticas">9</nota>
+ <nota asignatura="Ciencias">8</nota>
+ <nota asignatura="Historia">9</nota>
+ </notas>
+ </estudiante>
+</estudiantes>
+
+
+<!-- Para ver los nombres de todos los estudiantes: //estudiante/nombre/text() -->
+
+<!-- Para ver la media de las notas de matemáticas: sum(//estudiante/notas/nota[@asignatura="Matemáticas"]) div count(//estudiante/notas/nota[@asignatura="Matemáticas"])-->
+
+<!-- -->

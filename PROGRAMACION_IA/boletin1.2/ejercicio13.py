@@ -1,5 +1,5 @@
 import numpy.random
-jugadores="manuel","vicky","dan","gabriel","mario"
+jugadores=["manuel","vicky","dan","gabriel","mario"]
 
 
 def gruposrol(jugadores,**kwargs):

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <libro categoria="Cocina">
+    <titulo lang="en">Everyday Italian</titulo>
+    <autor>Giada De Laurentiis</autor>
+    <anno>2005</anno>
+    <precio>30.00</precio>
+  </libro>
+  <libro categoria="Infantil">
+    <titulo lang="en">Harry Potter</titulo>
+    <autor>J K. Rowling</autor>
+    <anno>2005</anno>
+    <precio>29.99</precio>
+  </libro>
+  <libro categoria="Web">
+    <titulo lang="en">XQuery Kick Start</titulo>
+    <autor>James McGovern</autor>
+    <autor>Per Bothner</autor>
+    <autor>Kurt Cagle</autor>
+    <autor>James Linn</autor>
+    <autor>Vaidyanathan Nagarajan</autor>
+    <anno>2003</anno>
+    <precio>49.99</precio>
+  </libro>
+  <libro categoria="Web">
+    <titulo lang="en">Learning XML</titulo>
+    <autor>Erik T. Ray</autor>
+    <anno>2003</anno>
+    <precio>39.95</precio>
+  </libro>
+</biblioteca> 
+
+
+
+ <!-- 1. Usamos for $libro in /biblioteca/libro
+return $libro/titulo/text() -->
+
+<!-- 2. Usamos for $libro in /biblioteca/libro where $libro[precio>=30]
+return $libro -->
+
+<!-- 3 Usamos for $libro in /biblioteca/libro where $libro[precio<=30]
+return $libro -->

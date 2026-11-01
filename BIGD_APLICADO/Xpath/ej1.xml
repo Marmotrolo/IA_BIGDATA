@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+ <libro>
+ <titulo>XML</titulo>
+ <autor>Joe Marini</autor>
+ <anno>2002</anno>
+ <precio>39.95</precio>
+ </libro>
+ <libro>
+ <titulo>Aprendiendo XPath</titulo>
+ <autor>John Smith</autor>
+ <anno>2010</anno>
+ <precio>29.99</precio>
+ </libro>
+ <libro>
+ <titulo>Técnicas avanzadas XML</titulo>
+ <autor>Lisa Johnson</autor>
+ <anno>2015</anno>
+ <precio>49.99</precio>
+ </libro>
+</catalogo>
+
+
+<!-- Para ver todos los titulos de los libros: //libro/titulo/text()-->
+
+<!--  Para ver los libros despues de 2005: //libro[anno>2005]-->
+
+
+<!-- Para ver los libros de los autores que empiezan por J: //libro[starts-with(autor,"J")]/titulo/text()-->
+
+<!-- Para ver el año de publicacion si el titulo contiene XPath: //libro[contains(titulo, "XPath")]/anno/text()-->
